@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css" type="text/css">
+    <link rel="stylesheet" href="HP.css" type="text/css">
+    <title>Styles Just H</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=Your_API_KEY"></script>
+
+    <script>
+        var myCenter = new google.maps.LatLng(40.69806778977659, -73.92128110210909);
+function initialize(){
+    var mapProp = {
+        center:myCenter,
+        zoom:12,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("map"),mapProp);
+
+    var marker = new google.maps.Marker({
+        position:myCenter,
+    });
+
+    marker.setMap(map);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+    <h1>Styles Just H</h1>
+    <div class="header">
+        <div class="nav_bar">
+            <a id="o" href="HomePage.html">Home</a>
+            <a id="o" href="second.html">Gallery</a>
+            <a id="o" href="third.html">Products</a>
+            <a id="o" href="fourth.html">Write a Review</a>
+            <div class="dropdown">
+                <button class="btn">Explore</button>
+                <div class="menu ">
+                    <a href="HomePage.html">Home</a>
+                    <a href="second.html">Gallery</a>
+                    <a href="third.html">Products</a>
+                    <a href="fourth.html">Write a Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="JSH">
+            <div class="salonImg">
+                <img class="imgHeader" src="https://media.gettyimages.com/id/1288801785/photo/barber-shop.jpg?s=612x612&w=gi&k=20&c=ZMkCWkGgE6ipcyMbP6veGiVpH0zqUA_yWUFLHB9IdoM=" >
+            </div>
+            <h2>
+                <span class="title">Styles Just H</span>
+            </h2>
+            <div class="sub">
+                <span class="sub-content" style="font-size:17px;">Beauty Salon in Brooklyn</span>
+            </div>
+            <div class="contact_btn">
+                <a id="contact" href="#contact-info">
+                    <span id="cbtn">contact us</span>
+                </a>
+            </div>
+            __________
+        </div>
+    </div>
+   
+    </br >  </br >
+
+    <div id="About_Us">
+        __________
+        <h2>About Us</h2>
+        <p style="text-transform: none; font-size:15px;">Here at Styles Just H, we treat our costumers like family, come in and lets have a great time getting to know one another. I, Heydi Ramires, will be your personal stylist. I take any request; all you have to do is tell me, and leave the rest to me.</p>
+    </div>
+</br >  </br >
+
+    <div id="reviews">
+        ___________________
+        <h2>Testimonials</h2>
+    </br >  </br >
+        <a class="btnR" href="fourth.html">Write a Review</a>
+    </div>
+</br >  </br >
+
+    <div id="contact-info">
+        ______________
+        <h2>Contact Us</h2>
+        <div class="container">
+            <div class="mapContainer" id="block">
+                
+                <div id="map"></div>
+            </div>
+            <div class="cell" id="block">
+                <h2>Contact</h2>
+          
+                <p style="text-transform: none;">Ph: (347) 240-6753</br>Mobile: (347) 993-4459</p> 
+            </div>
+            <div class="address" id="block">
+                <h2>Address</h2>
+            </br>
+                <a class="direction-link" target="_blank" href="//maps.google.com/maps?f=d&amp;daddr=40.69806778977659, -73.92128110210909&amp;hl=en"> Get Directions</a>
+
+                <p>228 Wilson Avenue</br>Brooklyn, NY 11237</p>
+            </div>
+            <div class="Schedule" id="block">
+                <table border="5">
+                    <tr>
+                      <th colspan="2">Business Hours</th>
+                      
+                    </tr>
+                    <tr>
+                      <td>Mon</td>
+                      <td>Closed</td>
+                    </tr>
+                    <tr>
+                      <td>Tue</td>
+                      <td>10:00 AM – 7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wed</td>
+                        <td>10:00 AM – 7:00 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Thu</td>
+                        <td>10:00 AM – 7:00 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Fri</td>
+                        <td>10:00 AM – 7:00 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Sat</td>
+                        <td>10:00 AM – 7:00 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Sun</td>
+                        <td>Closed</td>
+                      </tr>
+                  </table>
+        
+            </div>
+            <div class="footer" id="block">
+                
+                <h2>Socials</h2>
+                <a target="_blank" href="https://www.instagram.com/brandito_oso/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+
+</br >  </br >
+
+<footer>
+    <footer>&copy; Copyright 2022 HTML.am</footer>
+
+</footer>
+
+   
+
+    
+
+    
+</body>
+</html>
