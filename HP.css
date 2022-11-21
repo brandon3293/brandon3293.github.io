@@ -122,6 +122,7 @@ background-color: #c58383;
     width:89.5%;
     object-fit: cover;
     position:relative;
+    background-image:url('direction-icon.png');
 }
 .address a.direction-link {
 
