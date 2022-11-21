@@ -45,7 +45,7 @@ section {
 }
 
 textarea{
-    resize: vertical;
+    resize: none;
 }
 
 button[type="submit"] {
