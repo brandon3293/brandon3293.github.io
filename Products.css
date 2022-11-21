@@ -15,8 +15,8 @@ span{
 }
 
 .Products{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+
 
 }
 
