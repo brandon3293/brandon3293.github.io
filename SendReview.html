@@ -31,16 +31,31 @@
     </div>
     <h2 style="text-align:center">Contact us</h2>
     <p style="text-align:center;">Need a trim up or a whole new look. Have any concerns. </br>Fill out the form below to let us know. We'll get back to you.</p>
-    <div >
-        <form style="align-items:center; text-align: center;">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"></br></br>
-            <label for="num">Phone #</label>
-            <input type="text" id="num" name="num"></br></br>
-            <label for="date"></label>
-
-        </form>
+    <div class="container">
+        <form action="">
+            <div class="formGroup">
+                <label for="Name">Name</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="formGroup">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+        
+              <div class="formGroup">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              </div>
+        
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div id="status"></div>
+        </section>
     </div>
+            
+
+       
 
     <footer>
         <footer>&copy; Copyright 2022 HTML.am</footer>
