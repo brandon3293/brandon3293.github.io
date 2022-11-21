@@ -42,6 +42,10 @@ section {
     margin-top: 5px;
 }
 
+textarea{
+    resize: vertical;
+}
+
 footer{
     position: absolute;
     bottom: auto;
