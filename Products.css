@@ -6,6 +6,10 @@ figure{
     width: 400px;
     text-align: center;
 }
+img{
+    width:150px;
+    height:250px;
+}
 span{
     font-weight: bold;
 }
