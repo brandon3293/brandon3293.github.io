@@ -98,6 +98,9 @@ a{
 
   .fa-instagram{
     background-image: linear-gradient(to bottom left, blue, purple, pink, orange, #feda75);
-    
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
     color: white;
   }
