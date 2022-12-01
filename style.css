@@ -116,6 +116,163 @@ h2{
     width: 100%;
 }
 
+.title{
+    font-size:50px;
+}
+#contact{
+    background-color: #c58383;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+
+.salonImg{
+  padding:10px;
+}
+
+.imgHeader{
+    width:90%;
+    height: 400px;
+}
+
+.contact_btn{
+    margin-top: 20px;
+}
+#About_Us{
+    
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    text-transform: uppercase;
+    font-size: 12.5px;
+}
+
+#reviews{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12.5px;
+}
+#reviews a.btnR{
+background-color: #c58383;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+
+#reviews a.btnR:hover{
+    text-decoration: none;
+    background:#fdbebe ;
+    color: #FFF;
+}
+
+#contact-info{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12.5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#block{
+    padding:15px;
+}
+#block h2{
+    font-size: 17.5px;
+}
+#block p{
+    font-size: 15px;
+    
+}
+.Schedule{
+    grid-column: span 2;
+}
+
+.footer{
+    grid-column: span 2;
+}
+
+#map{
+    margin-left:50px;
+    width: 100%;
+    height: 400px;
+   
+}
+
+.mapContainer{
+    grid-column: span 2;
+    width:89.5%;
+    object-fit: cover;
+    position:relative;
+}
+.address a.direction-link {
+
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 17px;;
+    background:#c58383;
+    background-image: url('direction-icon.png');
+}
+.address a.direction-link:hover {
+    text-decoration: none;
+    background:#fdbebe ;
+    color: #FFF;
+    background-image: url('direction-icon.png');
+   
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    height:400px;
+    width: 300px;
+    border:#c58383 5px solid;
+}
+
+table th{
+    border: 2px solid;
+    font-size: 17px;
+}
+
+table tr,td{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .imgHeader{
+        width:87%;
+        height: 300px;
+    }
+    #map{
+        margin-left:20px;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .imgHeader{
+        width:89%;
+        height: 350px;
+    }
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -138,3 +295,10 @@ h2{
     background-color:blue;
     color: white;
   }
+
+  footer{
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 2.5rem;  
+}
