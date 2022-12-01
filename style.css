@@ -301,7 +301,10 @@ table tr,td{
 
 /* css for Gallery Page */
 
-
+#gallery{
+    text-decoration: underline;
+    text-align: center;
+}
 
 /* css for Products page */
 
