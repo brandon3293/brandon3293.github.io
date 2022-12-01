@@ -299,19 +299,85 @@ table tr,td{
 /* css for Gallery Page */
 
 #gallery{
+    font-size: 45px;
     text-decoration: underline;
     text-align: center;
 }
 
-#cell{
-    height: 200px;
-    width:225px;
+.cell{
+    object-fit: fill;
+    height: 300px;
+    width:220px;
+    border:8px solid black;
+    
 }
 
 
+
+.hairstyles{
+    text-align: center;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.perms, .highlights{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.Pimages, .himages{
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(2,240px);
+}
+
+@media screen and (max-width:1180px){
+    .hairstyles{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #cell{
+        height:200px;
+        width:175px;
+        border:5px solid black;
+    }
+    .Pimages, .himages{
+        grid-template-columns: repeat(3,240px);
+    }
+}
+@media screen and (max-width:768px) {
+    #cell{
+        height:200px;
+        width:175px;
+        border:5px solid black;
+    }
+    .Pimages, .himages{
+        grid-template-columns: repeat(2,240px);
+    }
+}
+
+
+
 /* css for Products page */
-
-
+.Products{
+    text-align: center;
+    display: grid;
+    grid-gap:25px;
+    grid-template-rows: repeat(2, 1fr);
+}
+figure{
+    border: 1px solid;
+    width: 400px;
+    text-align: center;
+}
+#pr{
+    height: 200px;
+    width:225px;
+}
+#cap{
+    font-weight: bold;
+}
 
 
 /* css for Reviews Page */
