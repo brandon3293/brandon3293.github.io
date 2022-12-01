@@ -361,13 +361,14 @@ table tr,td{
 
 /* css for Products page */
 .Products{
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
     grid-gap:25px;
     grid-template-rows: repeat(2, 1fr);
 }
 figure{
-    border: 1px solid;
+    border: 10px solid;
     width: 400px;
     text-align: center;
 }
