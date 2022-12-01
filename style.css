@@ -368,6 +368,7 @@ table tr,td{
     grid-template-columns: repeat(2, 1fr);
 }
 figure{
+    background-color: #ee7171;
     border: 6px solid;
     width: 400px;
     text-align: center;
