@@ -1,5 +1,10 @@
 /* css for each page */
 
+/* css all */
+body{
+    background-color:#FFFDD0;
+}
+
 /* Nav bar css */
 h1{
     font-family: 'Cedarville Cursive', cursive;
