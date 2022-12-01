@@ -362,7 +362,7 @@ table tr,td{
 /* css for Products page */
 
 .productos{
-    margin:auto;
+    text-align: center;
     display: grid;
     
     grid-template-columns: repeat(2, 1fr);
