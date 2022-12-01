@@ -92,6 +92,11 @@ a{
 
 /* HomePage css starts here */
 
+#HP > div{
+    display:block;
+}
+
+
 .fa {
     padding: 20px;
     font-size: 30px;
