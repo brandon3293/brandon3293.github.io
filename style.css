@@ -306,6 +306,12 @@ table tr,td{
     text-align: center;
 }
 
+#cell{
+    height: 200px;
+    width:225px;
+}
+
+
 /* css for Products page */
 
 
