@@ -1,5 +1,6 @@
 /* css for each page */
 
+/* Nav bar css */
 h1{
     font-family: 'Cedarville Cursive', cursive;
     font-size: 60px;
@@ -83,6 +84,8 @@ a{
     }
 
 }
+
+/* HomePage css starts here */
 
 .fa {
     padding: 20px;
