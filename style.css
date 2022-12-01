@@ -353,7 +353,7 @@ table tr,td{
         border:5px solid black;
     }
     .Pimages, .himages{
-        grid-template-columns: repeat(2,240px);
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
