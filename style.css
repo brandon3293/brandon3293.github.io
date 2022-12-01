@@ -92,7 +92,7 @@ a{
 
 /* HomePage css starts here */
 
-#HP > div{
+div{
     display:block;
 }
 
@@ -297,7 +297,7 @@ table tr,td{
   }
 
 
-  
+
 /* css for Gallery Page */
 
 
