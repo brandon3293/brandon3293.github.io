@@ -297,12 +297,11 @@ table tr,td{
 
 @media screen and (min-width:1024px){
 
-h2{
-    font-size:4em;
-}
+
 h1{
     font-size:80px;
 }
+
 }
 
 
